@@ -1,10 +1,11 @@
 import * as React from "react"
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import "../../styles/animate.min.css"
 import "../../styles/bootstrap.css"
 import "../../styles/style.css"
 import "../../styles/swipebox.css"
 
-export default function TBHeader() {
+export default function TBFirstPageHeader() {
 
     const sepcialStyle = {
         Visibility: "visible"
@@ -29,14 +30,16 @@ export default function TBHeader() {
                     </div>
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1 wow fadeInRight animated animated" data-wow-delay=".5s">
                         {/* style={sepcialStyle} */}
-                        <ul className="nav navbar-nav navbar-right">
-                            <li><a href="index.html" className="active">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="codes.html">Codes</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
+                        <Router>
+                            <ul className="nav navbar-nav navbar-right">
+                                <li><a href="/" className="active">Home</a></li>
+                                <li><a href="about">About</a></li>
+                                <li><a href="services">Services</a></li>
+                                <li><a href="gallery">Gallery</a></li>
+                                <li><a href="contact">Contact</a></li>
+                            </ul>
+                        </Router>
+
                         <div className="clearfix"> </div>
                     </div>
                 </nav>
