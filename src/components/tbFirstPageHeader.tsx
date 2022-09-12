@@ -30,15 +30,13 @@ export default function TBFirstPageHeader() {
                     </div>
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1 wow fadeInRight animated animated" data-wow-delay=".5s">
                         {/* style={sepcialStyle} */}
-                        <Router>
                             <ul className="nav navbar-nav navbar-right">
-                                <li><a href="/" className="active">Home</a></li>
+                                <li><a href="/" className="active">Homess</a></li>
                                 <li><a href="about">About</a></li>
                                 <li><a href="services">Services</a></li>
                                 <li><a href="gallery">Gallery</a></li>
                                 <li><a href="contact">Contact</a></li>
                             </ul>
-                        </Router>
 
                         <div className="clearfix"> </div>
                     </div>
