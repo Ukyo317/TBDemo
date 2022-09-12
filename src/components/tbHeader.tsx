@@ -1,13 +1,14 @@
 import * as React from "react";
 import { useState } from "react";
-import { HashRouter, Link, Route, Router } from "react-router-dom";
+import { Link } from 'gatsby';
 import "../../styles/animate.min.css";
 import "../../styles/bootstrap.css";
 import "../../styles/style.css";
 import "../../styles/swipebox.css";
-import { ActiveTag } from "../constants/Constants";
+import { ActiveTag } from "../constants/constants";
 import Home from "../pages";
 import TBAbout from "../pages/about";
+import Gallery from "../pages/gallery";
 
 export default function TBHeader() {
 
@@ -22,7 +23,6 @@ export default function TBHeader() {
     return <div>
         <div className="banner-1 agileinfo-2">
             <div className="container">
-                
                 <div className="header">
                     <nav className="navbar navbar-default">
                         <div className="navbar-header">
@@ -32,17 +32,35 @@ export default function TBHeader() {
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
                             </button>
-                            <h1><a href="index.html">Cognate</a></h1>
+                            <h1><a href="/">Cognate</a></h1>
                         </div>
-                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div>
                             <ul className="nav navbar-nav navbar-right">
-                                <li><a href="/">Home</a></li>
-                                <li data-name={ActiveTag.About} onClick={(event) => handleTagSelection(event)}><a href="about"
-                                    className={tag == ActiveTag.About.toString() ? "" : "active"}>About</a></li>
-                                <li><a href="services" 
-                                    className={tag == ActiveTag.Services.toString() ? "" : "active"}>Services</a></li>
-                                <li><a href="gallery">Gallery</a></li>
-                                <li><a href="contact">Contact</a></li>
+                                <li>
+                                    <Link to="/">
+                                        Home
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/about">
+                                        About
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/services">
+                                        Services
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/gallery">
+                                        Gallery
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/contact">
+                                        Contact
+                                    </Link>
+                                </li>
                             </ul>
                             <div className="clearfix"> </div>
                         </div>

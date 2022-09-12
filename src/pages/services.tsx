@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 // import TBFooter from "../components/tbFooter"
 // import TBHeader from "../components/tbHeader"
@@ -67,7 +68,7 @@ export default function TBService() {
 				<div className="overview-grids">
 					<div className="col-md-4 list-grid">
 						<div className="list-img">
-							<img src="images/g1.jpg" className="img-responsive" alt=" " />
+							<StaticImage src="../../static/g1.jpg" className="img-responsive" alt=" " />
 							<div className="textbox"></div>
 						</div>						
 						<h4>Doloremque</h4>
@@ -75,7 +76,7 @@ export default function TBService() {
 					</div>
 					<div className="col-md-4 list-grid">
 						<div className="list-img">
-							<img src="images/g2.jpg" className="img-responsive" alt=" " />
+							<StaticImage src="../../static/g2.jpg" className="img-responsive" alt=" " />
 							<div className="textbox"></div>
 						</div>	
 						<h4>Exercitationem</h4>
@@ -83,7 +84,7 @@ export default function TBService() {
 					</div>
 					<div className="col-md-4 list-grid">
 						<div className="list-img">
-							<img src="images/g7.jpg" className="img-responsive" alt=" " />
+							<StaticImage src="../../static/g7.jpg" className="img-responsive" alt=" " />
 							<div className="textbox"></div>
 						</div>	
 						<h4>Voluptatibus</h4>

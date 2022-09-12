@@ -5553,7 +5553,7 @@ button.close {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: url(../images/social.png) no-repeat 0px 0px;
+  background-color: url(../static/social.png) no-repeat 0px 0px;
 }
 .carousel-caption {
   position: absolute;

@@ -1,13 +1,25 @@
 import type { HeadFC } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import TBFirstPageHeader from "../components/tbFirstPageHeader"
 import TBFooter from "../components/tbFooter"
+import TBHeader from "../components/tbHeader"
+import Gallery from "./gallery"
 
 export const Head: HeadFC = () => <title>Home Page</title>
 
 export default function Home() {
   return <div>
-    <TBFirstPageHeader />
+    {/* <Router>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/gallery">Gallery</NavLink>
+
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/gallery" component={Gallery} />
+      </Switch>
+    </Router> */}
+
+    <TBHeader />
 
     <div className="agile">
       <div className="container">
@@ -17,8 +29,8 @@ export default function Home() {
             <div className="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
               <ul id="myTab" className="nav nav-tabs" role="tablist">
                 <li role="presentation" className="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">Printing</a></li>
-                <li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">Simply</a></li>
-                <li role="presentation"><a href="#tree" role="tab" id="tree-tab" data-toggle="tab" aria-controls="tree">Typesetting</a></li>
+                {/* <li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">Simply</a></li>
+                <li role="presentation"><a href="#tree" role="tab" id="tree-tab" data-toggle="tab" aria-controls="tree">Typesetting</a></li> */}
               </ul>
               <div id="myTabContent" className="tab-content">
                 <div role="tabpanel" className="tab-pane fade in active" id="expeditions" aria-labelledby="expeditions-tab">
@@ -46,26 +58,26 @@ export default function Home() {
         <div className="col-md-6 agile-right wow fadeInRight animated animated" data-wow-delay=".5s">
           <ul>
             <li>
-              <div className="list-img">
-                <img src="images/1.jpg" className="img-responsive" alt=" " />
+              <div className="list-StaticImage">
+                <StaticImage src="../../static/1.jpg" className="StaticImage-responsive" alt=" " />
                 <div className="textbox"></div>
               </div>
             </li>
             <li>
-              <div className="list-img">
-                <img src="images/2.jpg" className="img-responsive" alt=" " />
+              <div className="list-StaticImage">
+                <StaticImage src="../../static/2.jpg" className="StaticImage-responsive" alt=" " />
                 <div className="textbox"></div>
               </div>
             </li>
             <li>
-              <div className="list-img">
-                <img src="images/3.jpg" className="img-responsive" alt=" " />
+              <div className="list-StaticImage">
+                <StaticImage src="../../static/3.jpg" className="StaticImage-responsive" alt=" " />
                 <div className="textbox"></div>
               </div>
             </li>
             <li>
-              <div className="list-img">
-                <img src="images/4.jpg" className="img-responsive" alt=" " />
+              <div className="list-StaticImage">
+                <StaticImage src="../../static/4.jpg" className="StaticImage-responsive" alt=" " />
                 <div className="textbox"></div>
               </div>
             </li>

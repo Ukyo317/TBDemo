@@ -15,7 +15,6 @@ export default function TBFooter() {
 					<li><span className="glyphicon glyphicon-phone" aria-hidden="true"></span>+123 456 7890</li>
 					<li><a href="mailto:info@example.com"><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span>info@example.com</a></li>
 					<li><span className="glyphicon glyphicon-map-marker" aria-hidden="true"></span>London, Jasmin Road</li>
-
 				</ul>
 
 			</div>
@@ -44,8 +43,7 @@ export default function TBFooter() {
 			</div>
 
 			<div className="clearfix"></div>
-			<p className="copy-right">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/">厚朴网络淘宝店</a><a target="_blank" href="http://www.moobnn.com">网页模板</a></p>
-
+			<p className="copy-right">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/">Turing&Basquiat Tech Community</a><a target="_blank" href="http://www.moobnn.com">网页模板</a></p>
 		</div>
 	</div>
 }

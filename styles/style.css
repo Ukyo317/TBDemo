@@ -80,16 +80,16 @@ ul.top-icons li a:hover{
  opacity:0.4;
 }
 ul.top-icons li a.fb{
- background:url('../images/icons.png') no-repeat 0px 0px;
+ background:url('../static/icons.png') no-repeat 0px 0px;
 }
 ul.top-icons li a.twitt{
- background:url('../images/icons.png') no-repeat -26px 0px;
+ background:url('../static/icons.png') no-repeat -26px 0px;
 }
 ul.top-icons li a.goog{
- background:url('../images/icons.png') no-repeat -52px 0px;
+ background:url('../static/icons.png') no-repeat -52px 0px;
 }
 ul.top-icons li a.drib{
- background:url('../images/icons.png') no-repeat -78px 0px;
+ background:url('../static/icons.png') no-repeat -78px 0px;
 }
 /*----*/
 .header {
@@ -362,7 +362,7 @@ ul.top-icons li a.drib{
 /*--//top-nav--*/
 /*--slider--*/
 .banner {
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(../static/banner.jpg) no-repeat 0px 0px;
     background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -371,7 +371,7 @@ ul.top-icons li a.drib{
     min-height:700px;
 }
 .banner-1 {
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background: url(../static/banner.jpg) no-repeat 0px 0px;
     background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -448,7 +448,7 @@ ul.top-icons li a.drib{
 /*-- //agile --*/
 /*-- count --*/
 .count{
-	background: url(../images/banner1.jpg) center fixed;
+	background: url(../static/banner1.jpg) center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -509,7 +509,7 @@ ul.top-icons li a.drib{
     font-size: 1em;
     font-weight: 400;
     color:#b3b3b3;
-    background: url(../images/dot.png)no-repeat -3px 3px;
+    background: url(../static/dot.png)no-repeat -3px 3px;
     padding: 0px 0px 0px 20px;
 	line-height:1.6em;
 }
@@ -561,7 +561,7 @@ ul.top-icons li a.drib{
 	text-decoration: none;
 	height: 61px;
 	width: 38px;
-	background: transparent url("../images/themes.gif") no-repeat left top;
+	background: transparent url("../static/themes.gif") no-repeat left top;
 	margin-top: -45px;
 }
 .slider3 .callbacks_nav.next {
@@ -614,7 +614,7 @@ ul.top-icons li a.drib{
     display: inline-block;
 }
 .ba-im {
-    background: url(../images/test.jpg) no-repeat 0px 0px;
+    background: url(../static/test.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -627,7 +627,7 @@ ul.top-icons li a.drib{
 }
 /*-- //Slider --*/
 .newsletter {
-   background: url(../images/banner1.jpg) center fixed;
+   background: url(../static/banner1.jpg) center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -747,19 +747,19 @@ ul.con-icons{
     border: 1px solid #9caec2;
 }
 .fb_icons  li a.fb{
-    background: url(../images/social.png) no-repeat -48px -7px;
+    background: url(../static/social.png) no-repeat -48px -7px;
 }
 .fb_icons  li a.twit{
-    background: url(../images/social.png) no-repeat -7px -7px;
+    background: url(../static/social.png) no-repeat -7px -7px;
 }
 .fb_icons  li a.goog{
-    background: url(../images/social.png) no-repeat -88px -7px;
+    background: url(../static/social.png) no-repeat -88px -7px;
 }
 .fb_icons li a.pin{
-    background: url(../images/social.png) no-repeat -130px -7px;
+    background: url(../static/social.png) no-repeat -130px -7px;
 }
 .fb_icons li a.drib{
-    background: url(../images/social.png) no-repeat -171px -7px;
+    background: url(../static/social.png) no-repeat -171px -7px;
 }
 /* Rectangle Out */
 .hvr-rectangle-out {
@@ -941,7 +941,7 @@ h2.tit,h3.tit{
 /*-- //feature-grids --*/
 /*--about--*/
 .banner.two {
-    background: url(../images/banner1.jpg) no-repeat 0px 0px;
+    background: url(../static/banner1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1032,7 +1032,7 @@ h2.tittle {
    position: relative;
 }
 .view a.info {
-   background:url(../images/1.jpg) center no-repeat;
+   background:url(../static/1.jpg) center no-repeat;
    display: inline-block;
    text-decoration: none;
    padding:0;
@@ -1411,7 +1411,7 @@ color: #111;
   height: 22px;
   border: none;
   text-indent: 100%;
-  background: url(../images/move-top.png) no-repeat 0px 0px;
+  background: url(../static/move-top.png) no-repeat 0px 0px;
 }
 /**agileinfo**/
 .agileinfo {
@@ -1428,7 +1428,7 @@ color: #111;
 	color: #999;
     text-decoration: none;
     padding-left: 2em;
-    background: url(../images/dot.png) no-repeat 0px 9px;
+    background: url(../static/dot.png) no-repeat 0px 9px;
     font-size: 1em;
 }
 .ser-grid ul li:hover {
