@@ -10,7 +10,7 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [],
-  pathPrefix: "/blog",
+  pathPrefix: "/TBDemo",
 };
 
 export default config;
