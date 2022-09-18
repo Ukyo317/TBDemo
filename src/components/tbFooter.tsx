@@ -3,7 +3,6 @@ import "../../styles/animate.min.css";
 import "../../styles/bootstrap.css";
 import "../../styles/style.css";
 import "../../styles/swipebox.css";
-
 export default function TBFooter() {
 
 	return <div className="w3ls">
@@ -43,7 +42,7 @@ export default function TBFooter() {
 			</div>
 
 			<div className="clearfix"></div>
-			<p className="copy-right">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/">Turing&Basquiat Tech Community</a><a target="_blank" href="http://www.moobnn.com">网页模板</a></p>
+			<p className="copy-right">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank"> Turing&Basquiat Tech Community</a><a target="_blank"></a></p>
 		</div>
 	</div>
 }

@@ -1,8 +1,4 @@
 import * as React from "react"
-import "../../styles/animate.min.css"
-import "../../styles/bootstrap.css"
-import "../../styles/style.css"
-import "../../styles/swipebox.css"
 import TBFooter from "../components/tbFooter"
 import TBHeader from "../components/tbHeader"
 import { StaticImage } from "gatsby-plugin-image"
@@ -21,7 +17,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g1.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
                                         <span className="separator"></span>
@@ -36,7 +32,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g2.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
                                         <span className="separator"></span>
@@ -51,7 +47,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g3.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
                                         <span className="separator"></span>
@@ -66,7 +62,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g4.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
                                         <span className="separator"></span>
@@ -81,7 +77,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g5.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
                                         <span className="separator"></span>
@@ -96,7 +92,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g6.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
                                         <span className="separator"></span>
@@ -112,7 +108,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g7.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
                                         <span className="separator"></span>
@@ -127,7 +123,7 @@ export default function Gallery() {
                                 <StaticImage src="../../static/g8.jpg" alt=" " />
                                 <div className="gal-text-box">
                                     <div className="info-gal-con">
-                                        <h4>Cognate</h4>
+                                        <h4>TAB</h4>
                                         <span className="separator"></span>
                                         <p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
                                         <span className="separator"></span>

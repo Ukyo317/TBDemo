@@ -1,7 +1,5 @@
 import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
-// import TBFooter from "../components/tbFooter"
-// import TBHeader from "../components/tbHeader"
 import "../../styles/animate.min.css"
 import "../../styles/bootstrap.css"
 import "../../styles/style.css"

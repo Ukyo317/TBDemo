@@ -1,25 +1,71 @@
-import type { HeadFC } from "gatsby"
+import { HeadFC, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import TBFooter from "../components/tbFooter"
-import TBHeader from "../components/tbHeader"
-import Gallery from "./gallery"
 
 export const Head: HeadFC = () => <title>Home Page</title>
 
 export default function Home() {
   return <div>
-    {/* <Router>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/gallery">Gallery</NavLink>
+    <div className="banner agileinfo-1">
+      <div className="container">
+        <div className="header">
+          <nav className="navbar navbar-default">
+            <div className="navbar-header wow fadeInLeft animated animated" data-wow-delay=".5s" >
+              <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+              <StaticImage
+                style={{
+                  maxWidth: "300px"
+                }}
+                src="../../static/TAB-white.png" alt="about-image" />
+            </div>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1 wow fadeInRight animated animated" data-wow-delay=".5s">
+              <div>
+                <ul className="nav navbar-nav navbar-right">
+                  <li>
+                    <Link to="/">
+                    Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/about">
+                      About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/services">
+                      Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/gallery">
+                      Gallery
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
+                <div className="clearfix"> </div>
+              </div>
+              <div className="clearfix"> </div>
+            </div>
+          </nav>
+        </div>
 
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/gallery" component={Gallery} />
-      </Switch>
-    </Router> */}
-
-    <TBHeader />
+        <div className="banner-info">
+          <h2>Standard dummy text ever since the 1500s</h2>
+          <p> when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+        </div>
+      </div>
+    </div>
 
     <div className="agile">
       <div className="container">
